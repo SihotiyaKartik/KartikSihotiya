@@ -94,3 +94,17 @@
         font-size: 20px;
     }
 }
+
+@media only screen and (max-width:480px){
+    .skills > h1{
+        font-size: 30px;
+    }
+    .skills > h1:before{
+     top:25px;
+     width: 25%;   
+    }
+    .skills> h1:after{
+        top:25px;
+        width: 25%;
+    }
+}

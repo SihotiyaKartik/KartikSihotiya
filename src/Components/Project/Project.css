@@ -383,3 +383,54 @@
         transition: 0.5s ease-out;
     }
 }
+
+@media only screen and (max-width:480px){
+    .project > h1{
+        font-size: 30px;
+    }
+    .project > h1:before{
+     top:25px;
+     width: 23%;   
+    }
+    .project> h1:after{
+        top:25px;
+        width: 23%;
+    }
+    .chatbook{
+        padding: 0;
+    }
+    .chatbook > .chatbook-right > .detail{
+        font-size: 18px;
+    }
+    .chatbook-right > .tech > p{
+        font-size: 18px;
+    }
+    .github-d{
+        padding: 0;
+    }
+    .github-d > .github-d-right > .detail{
+        font-size: 18px;
+    }
+    .github-d-right > .tech{
+        margin-top: 10px !important;
+    }
+    .github-d-right > .tech > p{
+        font-size: 18px;
+    }
+    .github-d-right > .source{
+        margin-top: 10px !important;
+    }
+    .social{
+        padding: 0;
+    }
+    .social > .social-right > .detail{
+        font-size: 16px;
+    }
+    .social-right > .tech{
+        width: 80vw !important;
+        padding: 0 5px !important;
+    }
+    .social-right > .tech > p{
+        margin-right: 12px !important;
+    }
+}

@@ -100,14 +100,31 @@ color: #fff;
         padding:0 35%;
     }
     .contact > h1{
-        font-size: 35px;
+        font-size: 25px;
     }
     .contact > h1:before{
-        top:25px;
-        width:22%;
+        top:25px !important;
+        width:15% !important;
     }
     .contact > h1:after{
-        top:25px;
-        width:22%;
+        top:25px !important;
+        width:15% !important;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .contact > h1{
+        font-size: 30px !important;
+    }
+    .contact > h1:before{
+     top:25px !important;
+     width: 12% !important;   
+    }
+    .contact > h1:after{
+        top:25px !important;
+        width: 12% !important;
+    }
+    .social-handle{
+        padding: 0 28% !important;
     }
 }

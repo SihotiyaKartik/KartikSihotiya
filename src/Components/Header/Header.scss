@@ -32,7 +32,7 @@ $h-hide-distance: $h-width + $h-padding;
   overflow: hidden;
   background-color: $h-background-color;
   position: absolute;
-  right:10px;
+  right:20px;
   width: 10%;
   z-index: 9999;
 
@@ -111,7 +111,7 @@ $h-hide-distance: $h-width + $h-padding;
   &__hidden {
     opacity: 0;
     @include line-props();
-    
+    right:10px;
     background-color: $h-hover-line-color;
     top: 50%;
     transform: translate(#{$h-hide-distance}, -50%);

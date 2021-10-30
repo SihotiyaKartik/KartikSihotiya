@@ -113,3 +113,17 @@
         margin-bottom: 40px;
     }
 }
+
+@media only screen and (max-width:480px){
+    .education > h1{
+        font-size: 30px;
+    }
+    .education > h1:before{
+     top:25px;
+     width: 20%;   
+    }
+    .education> h1:after{
+        top:25px;
+        width: 20%;
+    }
+}
