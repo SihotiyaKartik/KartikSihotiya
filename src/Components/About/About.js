@@ -15,7 +15,7 @@ function About() {
                     <li>Curious learner</li>
                 </ul>
             </div>
-            <p className="details">I am a pre-final year student in Electronics and Communication Engineering from National Institute of Technology Patna.</p> 
+            <p className="details">Graduated from National Institute of Technology Patna in Electronics and Communication Engineering.</p> 
             <p className="more-detail">Apart from that I am a full stack developer and open source enthusiast</p>
             
             </div>
